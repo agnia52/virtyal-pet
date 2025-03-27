@@ -39,6 +39,7 @@ def text_render(text):
 new_game_data = {"happiness": 100, "satiety":100 , "health": 100, "money": 0, "coins_ptr_second": 1, "costs_of_upgrade": {"100": False, "1000": False, "5000": False, "10000": False}, "clothes": [{"name": "Синяя футболка", "price": 10, "image": "images/items/blue t-shirt.png", "is_using": False, "is_bought": False}, {"name": "Ботинки", "price": 50, "image": "images/items/boots.png", "is_using": False, "is_bought": False}, {"name": "Шляпа", "price": 50, "image": "images/items/hat.png", "is_using": False, "is_bought": False}]}
 
 class Toy(pg.sprite.Sprite):
+    # класс для игрушек
     def __init__(self):
         pg.sprite.Sprite.__init__(self)
 
